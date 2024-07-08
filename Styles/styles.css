@@ -106,7 +106,7 @@ body {
     width: 45%;
     border-radius: 30px;
     box-shadow: 0 0 30px var(--tertiary-color);
-    object-fit: cover; /* Añadido para mantener la proporción */
+    object-fit: cover;
 }
 
 .presentation_link_subtitle {
@@ -152,6 +152,7 @@ body {
     .principal_image {
         max-width: 100%;
         height: auto;
+        object-fit: cover;
     }
 
     .presentation_content {
