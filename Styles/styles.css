@@ -16,6 +16,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -135,6 +136,8 @@ body {
 @media (max-width: 900px) {
     .presentation {
         flex-direction: column-reverse;
+        align-items: center;
+        padding: 5%;
     }
 
     .header_ {
@@ -150,9 +153,9 @@ body {
     }
 
     .principal_image {
+        width: 100%;
         max-width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: auto;
     }
 
     .presentation_content {
